@@ -1,0 +1,103 @@
+/* Container styles */
+.reg .registration-container {
+  background: url("../../../public/assets/pic/img15.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif; /* Modern font for the entire form */
+}
+
+/* Form styles */
+.reg .reg-form {
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit button styles */
+.reg .submit_button {
+  background: rgb(126, 21, 224);
+  margin-top: 20px;
+  padding: 12px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.reg .submit_button:hover {
+  background: rgb(96, 16, 176);
+}
+
+/* Form group styles */
+.reg .form-group {
+  margin-bottom: 15px;
+}
+
+/* Heading styles */
+.reg .heading {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.75rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+/* Error message styles */
+.reg .error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* TextField styles */
+.reg .text-field {
+  width: 100%;
+}
+
+.reg .text-field .MuiOutlinedInput-root {
+  border-radius: 6px;
+}
+
+.reg .text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(126, 21, 224);
+}
+
+/* Input image styles */
+.reg .input_image {
+  width: 100%;
+}
+
+.reg .input_image .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(101, 60, 182);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 320px) {
+  .reg .reg-form {
+    padding: 10px;
+  }
+  .reg .heading {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+  }
+  .reg .text-field {
+    margin-bottom: 10px;
+  }
+  .reg .submit_button {
+    padding: 10px;
+  }
+}

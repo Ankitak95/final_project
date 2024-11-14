@@ -1,0 +1,53 @@
+.home-container {
+  background-color: #673fbd;
+  padding-bottom: 50px;
+}
+
+.home-banner {
+  background-image: url('../../../public/assets//pic/img7.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.home-banner-title {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.shop-now-button {
+  background-color: #b34beb;
+  color: rgb(135, 57, 199);
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-card,
+.review-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  border-radius: 4px 4px 0 0;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.star-rating svg {
+  color: #ffb400;
+}

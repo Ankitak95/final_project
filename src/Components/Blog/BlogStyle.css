@@ -1,0 +1,26 @@
+.blog-container {
+    background-color: #9330da;
+    padding-bottom: 50px;
+  }
+  
+  .blog-banner {
+    background-image: url('../../../public//assets/pic/img30.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .blog-banner-title {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .blog-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
